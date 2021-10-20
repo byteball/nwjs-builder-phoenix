@@ -1,5 +1,7 @@
 
 export class LinuxConfig {
+    
+    public name: string = '';
 
     constructor(options: any = {}) {
 
