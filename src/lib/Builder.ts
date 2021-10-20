@@ -431,7 +431,7 @@ export class Builder {
     protected renameLinuxApp(targetDir: string, appRoot: string, pkg: any, config: BuildConfig) {
 
         const src = resolve(targetDir, 'nw');
-        const dest = resolve(targetDir, `${ pkg.name }`);
+        const dest = resolve(targetDir, `${ config.linux.name || pkg.name }`);
 
         return rename(src, dest);
 

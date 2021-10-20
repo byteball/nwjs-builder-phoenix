@@ -48,7 +48,9 @@ plistStrings | { [key: string]: string } | `plist` strings. Defaults to `{}`.
 
 ## build.linux <- [LinuxConfig](../src/lib/config/LinuxConfig.ts)
 
-Currently noop.
+Name | Type | Description
+--- | --- | ---
+name | string | Name of the executable file. Defaults to `${ name }`.
 
 ## build.nsis <- [NsisConfig](../src/lib/config/NsisConfig.ts)
 
